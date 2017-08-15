@@ -1,0 +1,76 @@
+Section 1: Design and Development
+
+Q1: Could you outline what you would consider to be the important considerations If you were
+asked to develop a web application that could potentially be used by thousands of users?
+
+Answer: - How heavyweight is the application and what does it do? This will help me determine the framework
+I want to chose to have effective client side rendering.
+- How is my organization laid out.
+- What is the level of modularity I need to achieve, is it modular at a mid sized component level or is it
+modular to an atomic level as in an "Atomic approach".
+- What is the pool of users that the application is catering to? This would help me determine
+stack of browsers that I am going to develop and test for and thus help me chose the various
+preprocessors/ latest code patterns to adopt.
+-what kind of build tools do I need.
+-making sure it is SEO optimized
+-making sure it is robust on the server side.
+
+Q2:What techniques do you employ to keep up-to-date with the rapid pace of progress in the
+field front-end development? How do you choose which technologies are worth taking the
+time to learn more about?
+
+Answer: I would categorize myself as one of those developers who scavenges the internet for any sources
+which help with discussing coding problems and tricks. Collaborative learning from forums such as Medium,
+and web conferences organized by a group that I am part of called "Tech Ladies", have helped me alot.
+Apart from these I regularly looks through various coding trends through Code Pen and CSS Tricks.com.
+Another resource that I use is Envato tuts. There are many discussions that help you see many aspects
+of choosing a framework and tutorials for multiple new technologies.
+
+Aside of these I actively take part in frequent "lunch and learn" sessions among colleagues to share and learn
+any new technologies and hiccups in using them.
+
+------------------------------------------------------------------------------------------------------------
+Section 2 - Deployment
+Q1: Describe the approach you take in testing your applications.
+
+Answer: Before the QA phase starts, post development of modular components , aside from writing out unit tests,
+it is best to subject them through cross browser compatibility tests, cross device testing to check
+for breakpoints. In terms of testing for performance,
+I have found it useful to have relatable mock data (to avoid visual regression issues) and check
+the response of image heavy page loads by making sure you have served scaled images. Most times
+is helps in pushing you to rethink what you have/ have not cached and so helps , dependency on
+any third party/external requests. Also, user events and the right response to those user events
+need to be tested.
+
+Q2: What do you value in a code base?
+
+Answer: Well organized code is a developer's paradise. A few tips I keep in mind while coding and look for in
+other code bases are:
+- if you are repeating code , you are doing it wrong - Abstraction in conjunction with Modularity reduces complexity!
+- if a new developer with minimal knowledge of the project were to get on board, will he understand my logic
+structuring and flow of code?
+- Follow the rules agreed upon at the inception - be it BEM-ification or SASS compliance or
+verb-ifying functions, handling errors in the right manner, to just indentation.
+- a few concise comments to help yourself and anyone else troubleshooting your code.
+- it definitely helps to see new patterns which are web safe and help make use the features the chosen framework
+offers. So I try to see if there I am using these patterns in my code too.
+- lately, I have tried to make it a habit to code in ES6 since I started using React and have found there are so many
+ES6 features which make life easy.
+
+------------------------------------------------------------------------------------------------------------
+Section 3 - General
+Q1: What do you find most exciting or interesting about working in the software development
+field?
+
+Answer: I like the fact that front-end development is all about tangible results. You see what you code
+immediately. There is a new flavor of JavaScript every few months and most of them equally good with great features.
+What I like most about this field is that in addition to bringing to life a fabulous design that is thought of by
+a designer, it is the creativity of the developer to make it look and function right to make the entire visual experience
+worth the time of a user. That I believe is a challenge and every component a developer builds right is a success in
+completing this visual experience for the user.
+
+Q2:In your career to date, what are you most proud of and why?
+
+Answer: I think that in order to survive in this industry , one needs to be ready to learn everyday and continue to
+be curious. I am proud of the fact that I wake up everyday being motivated by this curiousity. I love the work I do
+in frontend and I am proud of my choice of career in this direction despite of facing difficulties in the start of it.

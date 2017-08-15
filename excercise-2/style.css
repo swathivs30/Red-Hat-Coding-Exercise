@@ -1,0 +1,154 @@
+/*
+*
+    style.css
+    author: Swathi Venkoji Suresh
+*/
+
+/*fonts */
+
+@font-face {
+  font-family: 'overpass-bold';
+  src: url('./fonts/overpass-bold.otf');
+}
+@font-face {
+  font-family: 'overpass-semi-bold';
+  src: url('./fonts/overpass-semibold.otf');
+}
+@font-face {
+  font-family: 'overpass-light';
+  src: url('./fonts/overpass-light.otf');
+}
+h1, p {
+    margin: 0;
+}
+h1 {
+    font-family: 'overpass-bold';
+    font-size: 1.7em;
+    padding: 10px 0;
+}
+p {
+    font-family: 'overpass-light';
+    padding: 10px 0;
+}
+body{
+    font-size: 80%;
+    width: 100%;
+    margin: 0;
+    background-image: radial-gradient(#ededed, #bbb);
+}
+.panel__wrapper {
+    margin-top: 10%;
+}
+.panel {
+    margin: 0 auto;
+    background: white;
+    width: 40%;
+    clear: both;
+    box-shadow: 0px 1px 1px #999;
+    border: 1px solid #FFF;
+}
+
+/*navigation*/
+.nav {
+    width: 100%;
+    background: linear-gradient(to bottom, #cc0000 0%, #470000 100%);
+    display: inline-block;
+}
+.nav ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav li {
+    border-left: 1px solid #FFF;
+    float: left;
+}
+.nav li a {
+    font-size: 1.2em;
+    font-family: 'overpass-light';
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.nav__item--active,
+.nav li a:hover {
+    background-image: radial-gradient(#cc0000, #470000);
+}
+.nav__item--active li a {
+    color: #FFF;
+}
+.nav p {
+    color: #FFF;
+    padding: 10px 0 10px 20px;
+    font-family: 'overpass-light';
+    font-size: 1.5em;
+    float: left;
+}
+
+/*content*/
+.panel__content {
+    padding: 20px;
+}
+.panel__copy {
+    font-size: 1.2em;
+    font-family: 'overpass-semi-bold';
+}
+
+/* Table */
+.panel__table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0;
+}
+.panel__table th,
+.panel__table td {
+    padding: 10px 0;
+    text-align: left;
+}
+.panel__table th {
+    font-size: 1.2em;
+    font-family: 'overpass-semi-bold';
+}
+.panel__table td {
+    font-size: 1.2em;
+    font-family: 'overpass-light';
+}
+.panel__tabledata--active {
+    padding: 5px 8px;
+    background: green;
+    color: white;
+    border-radius: 3px;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+    .panel__wrapper {
+        margin-top: 35%;
+    }
+    .panel {
+        width: 70%;
+    }
+}
+
+/* media queries */
+@media only screen and (max-width: 428px) {
+    .nav li a {
+        font-size: 1em;
+        padding: 14px 12px;
+    }
+    .panel__copy {
+        font-size: 1.1em;
+    }
+    .panel__table th {
+        font-size: 1.1em;
+    }
+    .panel__table td {
+        font-size: 1.1em;
+    }
+}

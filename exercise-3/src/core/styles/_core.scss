@@ -1,0 +1,7 @@
+/* content padding coz of navbar */
+body {
+    padding-top: 50px;
+}
+
+/* Workaround for unwanted route changes due to empty href attributes - see http://angular-ui.github.io/bootstrap/ */
+.nav a { cursor: pointer; }

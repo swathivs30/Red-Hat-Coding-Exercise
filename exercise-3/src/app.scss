@@ -1,0 +1,10 @@
+@import "core/styles/variables";
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "core/styles/core";
+
+//feature imports
+@import "components/navigation/navigation";
+@import "components/dashboard/dashboard";
+@import "components/userDetails/userDetails";

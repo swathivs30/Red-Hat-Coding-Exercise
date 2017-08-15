@@ -1,0 +1,21 @@
+<!-- dashboard view with list of users-->
+<section class="dashboard__view container-fluid">
+    <h1>Users</h1>
+    <table class="users__table">
+        <tr>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Address</th>
+        </tr>
+        <tr ng-repeat="user in vm.users | orderBy : 'name': true">
+            <td data-ng-click="vm.showUserDetail(user.id, $event)">
+                <a class="user__link"href="">{{ user.name }}</a>
+            </td>
+            <td>{{ user.username }}</td>
+            <td><a href="">{{ user.email }}<a></td>
+            <td>{{ user.address.street }}</td>
+        </tr>
+    </table>
+
+</section>

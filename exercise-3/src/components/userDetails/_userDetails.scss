@@ -1,0 +1,23 @@
+.details__view {
+    text-align: center;
+
+    .details__container {
+        text-align: left;
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    h3 {
+        padding: 15px;
+        text-transform: uppercase;
+    }
+
+    p {
+        line-height: 25px;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+}
