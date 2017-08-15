@@ -1,0 +1,3 @@
+-This exercise is styled purely using Vanilla CSS without any bootstrap or Flex etc,.
+-Bring up the index.html file on your browser and view in different device widths to check responsivness.
+-The result is attempted to be as close as possible to the png provided with approximate scale whereever necessary.
